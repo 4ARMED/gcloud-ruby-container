@@ -7,6 +7,7 @@ RUN apk --no-cache add \
         g++ \
         musl-dev \
         make \
-        openssl-dev
+        openssl-dev \
+	libxml2-dev
         
 RUN gem install --no-rdoc --no-ri bundler json
